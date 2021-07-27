@@ -22,7 +22,7 @@ browser.find_element_by_xpath('//*[@id="categoryPage2"]/section/div/div[2]/div/a
 #navigate to chicken and add buffalo wings
 browser.find_element_by_class_name('navigation-Wings').click()
 #next line ONLY for late night orders
-browser.find_element_by_xpath('//*[@id="genericOverlay"]/section/header/button').click()
+#browser.find_element_by_xpath('//*[@id="genericOverlay"]/section/header/button').click()
 time.sleep(1)
 browser.find_element_by_xpath('//*[@id="categoryPage2"]/section/div/div[5]/div/a').click()
 browser.find_element_by_xpath('//*[@id="pageModal"]/div/section/div/div/div/form/div/button[2]').click()
